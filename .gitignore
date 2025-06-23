@@ -1,0 +1,15 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore Backup folder
+Backup/
+
+# Ignore templates copy folder
+templates copy/
+
+app-copy.py
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
