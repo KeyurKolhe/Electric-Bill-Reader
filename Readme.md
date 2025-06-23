@@ -84,9 +84,9 @@ The app works in 3 core steps:
 
 ```bash
 
-gitclonehttps://github.com/yourusername/electric-bill-reader.git
+git clone https://github.com/KeyurKolhe/Electric-Bill-Reader.git
 
-cdelectric-bill-reader
+cd Electric-Bill-Reader
 
 ```
 
