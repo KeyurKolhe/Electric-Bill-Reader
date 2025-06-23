@@ -14,9 +14,9 @@ A Flask-based web application that allows users to:
 
 The app works in 3 core steps:
 
-1. 📤 **PDF Upload** – Users upload scanned electric bill PDFs.
-2. 🔎 **Text Extraction** – Using `pdfminer.six`, raw text is extracted from the PDF.
-3. 🧠 **Regex Parsing** – Specific fields like name, month, bill number, amount, etc., are pulled using **custom regular expressions**:
+1. **PDF Upload** – Users upload scanned electric bill PDFs.
+2. **Text Extraction** – Using `pdfminer.six`, raw text is extracted from the PDF.
+3. **Regex Parsing** – Specific fields like name, month, bill number, amount, etc., are pulled using **custom regular expressions**:
 
    - 👤 Name
    - 🏡 Address
@@ -31,13 +31,13 @@ The app works in 3 core steps:
 
 ## 🛠 Features
 
-- ✅ Upload PDF bills
-- 🧠 Extract meaningful data using `re`
-- 🔐 User Authentication (Register/Login)
-- 🗂️ User-based access control
-- 👮 Admin view of all entries
-- 📤 Download/view uploaded files
-- 🗑️ Delete functionality (user and admin-specific)
+- Upload PDF bills
+- Extract meaningful data using `re`
+- User Authentication (Register/Login)
+- User-based access control
+- Admin view of all entries
+- Download/view uploaded files
+- Delete functionality (user and admin-specific)
 
 ---
 
@@ -60,13 +60,9 @@ The app works in 3 core steps:
 ```
 
 .
-
 ├── app.py                  # Main Flask application
-
 ├── match.py
-
 ├── pattern.py              # Regex extraction logic
-
 ├── templates/              # HTML templates
 │   ├── index.html
 │   ├── form.html
@@ -75,13 +71,9 @@ The app works in 3 core steps:
 │   ├── submit_result.html
 │   ├── login.html
 │   └── register.html
-
 ├── uploads/                # Folder for uploaded PDFs
-
 ├── requirements.txt        # Python dependencies
-
 └── README.md
-
 ```
 
 ---
@@ -128,23 +120,6 @@ python app.py
 Visit: [http://localhost:5000](http://localhost:5000)
 
 ---
-
-## 📦 Requirements
-
-From `requirements.txt`:
-
-```
-
-flask
-
-pymongo
-
-pdfminer.six
-
-```
-
----
-
 
 ## 👨‍💻 Author
 
